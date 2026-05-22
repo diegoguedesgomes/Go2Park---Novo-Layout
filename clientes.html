@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sua van em tempo real · Go2Park</title>
+    <meta name="description" content="Acompanhe sua van do estacionamento até o aeroporto em tempo real. Sem app, sem cadastro. Só abrir o link e ver onde ela está." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inconsolata:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/landing-pages.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="client-banner">Você está vendo um exemplo de viagem. Em produção, cada passageiro recebe um link único por SMS, WhatsApp ou QR Code. <a href="empresas.html">É um estacionamento? →</a></div>
+
+      <nav class="site-nav">
+        <div class="container nav-inner">
+          <a class="brand" href="clientes.html" aria-label="Go2Park Clientes">
+            <img class="brand-icon" src="assets/go2park-icon.png" alt="" />
+            <img class="brand-word" src="assets/go2park-logo.svg" alt="Go2Park" />
+          </a>
+          <div class="nav-links">
+            <a href="#como-usar">Como funciona</a>
+            <a href="#tracking">Tracking</a>
+            <a href="#parceiros">Parceiros</a>
+            <a href="#faq">Dúvidas</a>
+          </div>
+          <div class="nav-actions">
+            <a class="button secondary" href="empresas.html">Sou estacionamento →</a>
+            <a class="button primary" href="#tracking">Ver exemplo ao vivo</a>
+          </div>
+        </div>
+      </nav>
+
+      <header class="client-hero">
+        <div class="container hero-grid">
+          <div>
+            <span class="status-pill">Sua van está a caminho</span>
+            <h1 class="display hero-title" style="color:var(--navy-2)">Faltam <span style="color:var(--blue)">3 minutos</span> para você embarcar.</h1>
+            <p class="hero-copy">Sem app para baixar. Sem cadastro. Esse link só seu atualiza sozinho até a van encostar.</p>
+            <div class="nav-actions" style="justify-content:flex-start">
+              <a class="button primary" href="#tracking">Acompanhar exemplo</a>
+              <a class="button secondary" href="#como-usar">Como eu recebo o link?</a>
+            </div>
+          </div>
+
+          <div class="tracking-phone" aria-label="Exemplo de tracking Go2Park">
+            <div class="phone-screen">
+              <div class="phone-top">
+                <img src="assets/go2park-logo.svg" alt="Go2Park" />
+                <span>Ao vivo</span>
+              </div>
+              <svg class="map-art" viewBox="0 0 390 620" role="img" aria-label="Mapa com rota da van até o aeroporto">
+                <rect width="390" height="620" fill="#e7edf8" />
+                <path d="M-20 98 C80 65 124 70 208 42 C290 16 352 28 414 2" fill="none" stroke="#cbd8ee" stroke-width="34" />
+                <path d="M-24 248 C78 212 132 232 218 200 C300 170 346 136 420 128" fill="none" stroke="#d7e1f2" stroke-width="28" />
+                <path d="M-18 480 C70 424 160 430 226 370 C294 308 322 230 416 190" fill="none" stroke="#d8e8d8" stroke-width="44" />
+                <path d="M74 394 C110 330 142 306 176 268 C218 222 238 198 300 136" class="route-line" />
+                <circle cx="74" cy="394" r="14" fill="#ff5a3c" stroke="#fff" stroke-width="6" />
+                <circle cx="300" cy="136" r="14" fill="#a4e244" stroke="#fff" stroke-width="6" />
+                <g class="van-dot">
+                  <circle r="22" fill="#111936" />
+                  <path d="M-9 4h18l-2-9H-5l-4 9Zm1 0v5h4V4h-4Zm12 0v5h4V4H4Z" fill="#fff" />
+                </g>
+                <text x="95" y="412" fill="#111936" font-family="Inter" font-size="14" font-weight="600">Estacionamento</text>
+                <text x="250" y="116" fill="#111936" font-family="Inter" font-size="14" font-weight="600">Terminal 2</text>
+              </svg>
+              <div class="toast">Van chegando!</div>
+              <div class="tracking-card">
+                <strong>Chegando em 3 min</strong>
+                <span>Geraldo M. · Volare · 3 pax · 3 malas</span>
+                <div class="progress"><i></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section id="como-usar" class="band">
+        <div class="container">
+          <p class="eyebrow">Como você entra nessa</p>
+          <h2 class="display section-title">Três passos. Zero app.</h2>
+          <p class="section-copy">Você nem precisa procurar. O link chega no horário certo.</p>
+          <div class="steps">
+            <article class="step-card">
+              <span class="step-number">01</span>
+              <h3>Estacione no parceiro Go2Park.</h3>
+              <p>Ao deixar o carro no estacionamento, sua viagem é registrada. Sem fila extra e sem pedir informação no balcão.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-number">02</span>
+              <h3>Receba um link no celular.</h3>
+              <p>Por SMS, WhatsApp ou QR Code na recepção. Toca, abre e pronto: a van aparece no mapa.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-number">03</span>
+              <h3>Embarque quando chegar.</h3>
+              <p>Acompanhe a van, receba aviso quando faltar 1 minuto e confira o motorista antes de entrar.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="tracking" class="band mist">
+        <div class="container benefit-layout">
+          <div>
+            <p class="eyebrow">O que esse link faz por você</p>
+            <h2 class="display section-title tight">Mais informação. Menos ansiedade.</h2>
+            <p class="section-copy">A gente não pede para você baixar nada. Você abre o link, vê tudo que importa e fecha quando a van chegar.</p>
+          </div>
+          <div class="benefit-list">
+            <article class="benefit-item"><span>1</span><div><b>Onde a van está agora</b><p>Posição em tempo real no mapa, atualizada automaticamente.</p></div></article>
+            <article class="benefit-item"><span>2</span><div><b>Quanto falta de verdade</b><p>ETA calculado para você se organizar sem ligar para ninguém.</p></div></article>
+            <article class="benefit-item"><span>3</span><div><b>Quem te leva</b><p>Motorista, veículo e dados da viagem identificados antes do embarque.</p></div></article>
+            <article class="benefit-item"><span>4</span><div><b>Compartilha com quem te espera</b><p>Mande o link para família, colega ou motorista de aplicativo.</p></div></article>
+            <article class="benefit-item"><span>5</span><div><b>Avalia depois</b><p>Sua nota chega ao estacionamento e ajuda a melhorar o serviço.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="parceiros" class="band">
+        <div class="container">
+          <p class="eyebrow">Estacionamentos parceiros</p>
+          <h2 class="display section-title">Onde o Go2Park já leva você até o portão.</h2>
+          <div class="logo-strip-inner" style="margin-top:34px">
+            <span class="logo-tile">Virapark</span>
+            <span class="logo-tile">Garageinn</span>
+            <span class="logo-tile">Nation Park</span>
+            <div class="partner-map">
+              <svg width="290" height="230" viewBox="0 0 290 230" aria-hidden="true">
+                <rect width="290" height="230" rx="12" fill="#f1f6ff" />
+                <path d="M30 160 C92 118 120 138 160 96 C190 64 214 58 260 34" fill="none" stroke="#1f64f2" stroke-width="8" stroke-linecap="round" stroke-dasharray="10 12" />
+                <circle cx="48" cy="148" r="16" fill="#a4e244" stroke="#fff" stroke-width="6" />
+                <circle cx="151" cy="102" r="16" fill="#1f64f2" stroke="#fff" stroke-width="6" />
+                <circle cx="244" cy="44" r="16" fill="#ff7a1a" stroke="#fff" stroke-width="6" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="band mist">
+        <div class="container">
+          <p class="eyebrow">Antes do voo, antes da van</p>
+          <h2 class="display section-title">Dúvidas rápidas para esperar tranquilo.</h2>
+          <div class="faq">
+            <details open>
+              <summary>Preciso baixar algum app?</summary>
+              <p>Não. O link abre no navegador do celular. Funciona em iPhone, Android e até no notebook.</p>
+            </details>
+            <details>
+              <summary>Como recebo o link?</summary>
+              <p>Por SMS ou WhatsApp, no número cadastrado no estacionamento. Também pode escanear o QR Code da recepção.</p>
+            </details>
+            <details>
+              <summary>E se eu chegar antes da hora?</summary>
+              <p>O link mostra a próxima van disponível e o tempo para ela passar pelo seu ponto.</p>
+            </details>
+            <details>
+              <summary>Posso compartilhar o tracking?</summary>
+              <p>Pode. Envie para família, colega de viagem ou motorista de aplicativo. Todo mundo vê a mesma van.</p>
+            </details>
+            <details>
+              <summary>O Go2Park é uma empresa de van?</summary>
+              <p>Não. A Go2Park é a tecnologia que organiza o traslado dos estacionamentos parceiros.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="band form-section">
+        <div class="container">
+          <p class="eyebrow">Vai viajar?</p>
+          <h2 class="display section-title" style="color:#fff">Procure estacionamentos com Go2Park perto do seu aeroporto.</h2>
+          <p class="section-copy" style="color:rgba(255,255,255,.72)">Você economiza no estacionamento, chega no terminal sem stress e sabe exatamente onde a van está.</p>
+          <div class="nav-actions" style="justify-content:flex-start; margin-top:28px">
+            <a class="button dark-primary" href="#parceiros">Ver estacionamentos parceiros →</a>
+            <a class="button ghost" href="empresas.html">Meu estacionamento precisa disso</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer-grid">
+          <div>
+            <img src="assets/go2park-logo.svg" alt="Go2Park" />
+            <p>Tracking ao vivo do traslado entre estacionamento e aeroporto. Sem app, sem cadastro, sem ansiedade.</p>
+          </div>
+          <div><h4>Para passageiros</h4><a href="#como-usar">Como funciona</a><a href="#parceiros">Estacionamentos parceiros</a><a href="#faq">Suporte</a></div>
+          <div><h4>Para estacionamentos</h4><a href="empresas.html">Conheça a plataforma</a><a href="empresas.html#demo">Falar com vendas</a></div>
+          <div><h4>Contato</h4><span>contato@go2park.com.br</span><span>Instagram</span><span>LinkedIn</span></div>
+        </div>
+        <div class="container footer-bottom">© 2026 Go2Park. Todos os direitos reservados. · Privacidade · Termos</div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<svg width="900" height="420" viewBox="0 0 900 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="420" fill="#F6F8FC"/>
+  <path d="M0 310H900" stroke="#D8D8D8" stroke-width="2"/>
+  <path d="M120 226C120 192 148 164 182 164H558C585 164 610 178 624 201L668 272H720C742 272 760 290 760 312V330H120V226Z" fill="white" stroke="#080808" stroke-width="5"/>
+  <path d="M198 184H326V266H178V204C178 193 187 184 198 184Z" fill="#EAF2FF" stroke="#080808" stroke-width="4"/>
+  <path d="M350 184H522C546 184 568 197 580 218L608 266H350V184Z" fill="#EAF2FF" stroke="#080808" stroke-width="4"/>
+  <rect x="150" y="282" width="122" height="20" rx="10" fill="#A4E244"/>
+  <rect x="384" y="282" width="166" height="20" rx="10" fill="#1F64F2"/>
+  <circle cx="230" cy="332" r="42" fill="#080808"/>
+  <circle cx="230" cy="332" r="18" fill="white"/>
+  <circle cx="634" cy="332" r="42" fill="#080808"/>
+  <circle cx="634" cy="332" r="18" fill="white"/>
+  <text x="120" y="92" fill="#080808" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="600">Imagem placeholder</text>
+  <text x="120" y="132" fill="#5A5A5A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="400">Substituir por foto/render da van Go2Park</text>
+</svg>

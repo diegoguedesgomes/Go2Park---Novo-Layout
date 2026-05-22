@@ -1,0 +1,27 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="520" fill="#EAF2FF"/>
+  <g opacity=".6" stroke="#D8D8D8">
+    <path d="M80 0V520"/>
+    <path d="M180 0V520"/>
+    <path d="M280 0V520"/>
+    <path d="M380 0V520"/>
+    <path d="M480 0V520"/>
+    <path d="M580 0V520"/>
+    <path d="M680 0V520"/>
+    <path d="M780 0V520"/>
+    <path d="M0 80H900"/>
+    <path d="M0 180H900"/>
+    <path d="M0 280H900"/>
+    <path d="M0 380H900"/>
+    <path d="M0 480H900"/>
+  </g>
+  <path d="M162 336C238 282 310 312 390 236C476 154 552 176 724 92" stroke="#3B89FF" stroke-width="12" stroke-linecap="round" stroke-dasharray="18 18"/>
+  <circle cx="162" cy="336" r="20" fill="#EE1D36" stroke="white" stroke-width="8"/>
+  <circle cx="724" cy="92" r="20" fill="#00D722" stroke="white" stroke-width="8"/>
+  <rect x="118" y="370" width="220" height="72" rx="8" fill="white" stroke="#D8D8D8"/>
+  <text x="142" y="404" fill="#080808" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600">Estacionamento</text>
+  <text x="142" y="428" fill="#5A5A5A" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400">Origem · 3 passageiros</text>
+  <rect x="586" y="120" width="220" height="72" rx="8" fill="white" stroke="#D8D8D8"/>
+  <text x="610" y="154" fill="#080808" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600">Terminal</text>
+  <text x="610" y="178" fill="#5A5A5A" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400">Chegada em 3 min</text>
+</svg>

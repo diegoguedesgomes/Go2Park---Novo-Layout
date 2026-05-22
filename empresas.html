@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Go2Park · A van do seu estacionamento, sob controle</title>
+    <meta name="description" content="Plataforma de gestão de traslado para estacionamentos próximos a aeroportos. Tracking em tempo real para o passageiro, operação enxuta para você." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inconsolata:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/landing-pages.css" />
+  </head>
+  <body>
+    <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+      <symbol id="icon-no-hardware" viewBox="0 0 24 24">
+        <path d="M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M9 18h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="m4 4 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="icon-setup" viewBox="0 0 24 24">
+        <path d="M12 6v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 12a9 9 0 1 1-3-6.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 4v6h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </symbol>
+      <symbol id="icon-report" viewBox="0 0 24 24">
+        <path d="M6 3h9l3 3v15H6V3Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14 3v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M9 17v-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M12 17v-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M15 17v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </symbol>
+    </svg>
+    <div class="page empresas-layout">
+      <nav class="ship-nav">
+        <div class="ship-nav-inner">
+          <a class="ship-brand" href="empresas.html" aria-label="Go2Park Empresas">
+            <img src="assets/go2park-logo.svg" alt="Go2Park" />
+          </a>
+          <div class="ship-links">
+            <a href="#como-funciona">Produto</a>
+            <a href="#solucoes">Soluções</a>
+            <a href="#resultados">Resultados</a>
+            <a href="#demo">Contato</a>
+          </div>
+          <div class="ship-actions">
+            <a href="clientes.html">Para passageiros</a>
+            <a class="ship-button" href="#demo">Agendar demo</a>
+          </div>
+        </div>
+      </nav>
+
+      <header class="ship-hero">
+        <div class="ship-container hero-center hero-split">
+          <div class="hero-copy">
+            <p class="ship-eyebrow">Gestão de traslado para aeroportos</p>
+            <h1 aria-label="Controle, rastreie e otimize suas vans sem complicar a operação."><span class="wc-wrap"><span class="wc-ghost" aria-hidden="true">Controle</span><span class="wc-item is-active" aria-hidden="true">Controle</span><span class="wc-item" aria-hidden="true">Rastreie</span><span class="wc-item" aria-hidden="true">Otimize</span></span><br>suas vans sem complicar a operação.</h1>
+            <p>Go2Park mostra ao passageiro onde a van está e mostra ao gestor onde a operação perde tempo, combustível e avaliação.</p>
+            <form class="hero-search" aria-label="Agendar demonstração">
+              <input type="email" placeholder="Seu e-mail comercial" />
+              <button type="submit">Agendar demo →</button>
+            </form>
+          </div>
+          <div class="hero-device-stage" aria-hidden="true">
+            <img class="hero-phone hero-phone-back" src="assets/mockup-iphone-jornada.png" alt="" />
+            <img class="hero-phone hero-phone-front" src="assets/mockup-iphone-qualidade.png" alt="" />
+          </div>
+        </div>
+        <section class="metrics-band" id="resultados" aria-label="Resultados Go2Park">
+          <div>
+            <strong data-count="100" data-suffix="k+">100k+</strong>
+            <span>Passageiros</span>
+          </div>
+          <div>
+            <strong data-count="30" data-suffix="%">30%</strong>
+            <span>Redução de custos</span>
+          </div>
+          <div>
+            <strong data-count="98" data-suffix="%">98%</strong>
+            <span>Satisfação</span>
+          </div>
+        </section>
+      </header>
+
+      <section id="como-funciona" class="ship-section app-flow-section">
+        <div class="ship-container app-flow-grid">
+          <div class="app-map-visual">
+            <img class="app-map-bg" src="assets/go2park-route-map-visual.png" alt="" />
+            <img class="app-map-phone" src="assets/mockup-iphone-map.png" alt="Celular com mapa de rastreio Go2Park" />
+            <div class="floating-route-card">
+              <strong>ETA 3 min</strong>
+              <span>Van a caminho do embarque</span>
+            </div>
+          </div>
+          <div class="app-flow-copy">
+            <p class="ship-eyebrow">Como a Go2Park funciona</p>
+            <h2>Do balcão ao aeroporto, todo mundo vê o que precisa.</h2>
+            <ul class="app-flow-list">
+              <li><b>Passageiro entra no fluxo</b><span>Recebe link por WhatsApp, SMS ou QR Code. Sem app obrigatório, sem cadastro longo.</span></li>
+              <li><b>Sistema organiza a van</b><span>Motorista vê quem está esperando, quantas malas e qual ponto precisa atender.</span></li>
+              <li><b>Gestor acompanha tudo</b><span>Painel com ETA médio, ocupação, demanda por horário, NPS e gargalos.</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="ship-section compact">
+        <div class="ship-container flow-head">
+          <p class="ship-eyebrow">Operação sem pontos cegos</p>
+          <h2>Da chegada do cliente ao embarque no terminal.</h2>
+          <p>Uma jornada simples para o passageiro e mensurável para o estacionamento.</p>
+        </div>
+        <div class="route-flow" aria-label="Fluxo progressivo da operação">
+          <div class="route-progress-line" aria-hidden="true"></div>
+          <article class="route-step route-step-active">
+            <span class="route-step-number">01</span>
+            <b>Cliente estaciona</b>
+            <small>Base · recepção</small>
+          </article>
+          <article class="route-step">
+            <span class="route-step-number">02</span>
+            <b>Van alocada</b>
+            <small>3 passageiros · 3 malas</small>
+          </article>
+          <article class="route-step">
+            <span class="route-step-number">03</span>
+            <b>Chegada no terminal</b>
+            <small>ETA · 3 minutos</small>
+          </article>
+        </div>
+      </section>
+
+      <section id="solucoes" class="ship-section">
+        <div class="solution-card">
+          <div class="solution-copy">
+            <p class="ship-eyebrow">Transporte sem fricção</p>
+            <h2>Roteiro, ETA, passageiro e motorista no mesmo mapa.</h2>
+            <p>A operação acompanha a jornada em tempo real, do estacionamento ao terminal, com dados claros para passageiro, motorista e gestão.</p>
+          </div>
+          <img src="assets/go2park-route-map-visual.png" alt="Mapa ilustrado com rota da van entre estacionamento e terminal" />
+        </div>
+        <div class="estimate-strip">
+          <h3>Veja em 20 minutos onde sua van perde margem.</h3>
+          <a href="#demo">Calcular operação →</a>
+        </div>
+      </section>
+
+      <section class="ship-section blue-wash">
+        <div class="ship-container flow-head">
+          <p class="ship-eyebrow">Serviços Go2Park</p>
+          <h2>Uma central completa com tracking ao vivo.</h2>
+          <p>Substitua ligações, planilhas e achismos por um sistema que controla tudo em uma única tela.</p>
+        </div>
+        <div class="map-visual-card">
+          <img src="assets/dashboard-go2park.jpg" alt="Dashboard operacional Go2Park com métricas, demanda por horário e indicadores de traslado" />
+        </div>
+      </section>
+
+      <section class="ship-section split-proof">
+        <div>
+          <p class="ship-eyebrow">Seu parceiro para traslado confiável</p>
+          <h2>Menos improviso. Mais dado para renovar contrato e proteger reputação.</h2>
+          <ul class="proof-list">
+            <li><b>Operação sem call center</b><span>O passageiro acompanha o ETA sozinho.</span></li>
+            <li><b>Demanda antes da saída</b><span>A van sai sabendo quem espera e onde.</span></li>
+            <li><b>Relatório para gestão</b><span>NPS, tempo médio, ocupação e gargalos.</span></li>
+          </ul>
+        </div>
+        <div class="proof-visual">
+          <img src="assets/painel-kds-go2park.png" alt="Painel KDS Go2Park com solicitações de passageiros embarcados" />
+          <div class="mini-chart"><strong>KDS</strong><span>fila operacional em tempo real</span></div>
+        </div>
+      </section>
+
+      <section class="van-band">
+        <img class="van-side van-side-left" src="assets/van-crop-go2park.png" alt="" />
+        <img class="van-side van-side-right" src="assets/van-crop-go2park.png" alt="" />
+        <div class="van-band-card">
+          <h2>Van rastreada. Cliente informado. E sua recepção tranquila.</h2>
+          <p>Quando o passageiro sabe onde a van está, sua equipe para de responder a mesma pergunta o dia inteiro.</p>
+          <a class="ship-button" href="#demo">Quero testar →</a>
+        </div>
+      </section>
+
+      <section class="ship-section testimonials-reference">
+        <div class="ship-container flow-head">
+          <p class="ship-eyebrow">Como muda a rotina</p>
+          <h2>O atendimento fica mais leve quando a informação chega antes da reclamação.</h2>
+        </div>
+        <div class="testimonials-columns" aria-label="Depoimentos Go2Park">
+          <div class="testimonial-column testimonial-column-a">
+            <div class="testimonial-track">
+              <article><p>"A pergunta sobre onde estava a van praticamente sumiu do balcão."</p><div><span class="avatar">OP</span><span><b>Operações</b><small>Estacionamento parceiro</small></span></div></article>
+              <article><p>"Antes o passageiro ligava para perguntar o ETA. Agora ele acompanha sozinho."</p><div><span class="avatar">AT</span><span><b>Atendimento</b><small>Equipe de recepção</small></span></div></article>
+              <article><p>"O painel deixou claro quais horários pediam reforço de motorista."</p><div><span class="avatar">PL</span><span><b>Planejamento</b><small>Gestão operacional</small></span></div></article>
+              <article><p>"A pergunta sobre onde estava a van praticamente sumiu do balcão."</p><div><span class="avatar">OP</span><span><b>Operações</b><small>Estacionamento parceiro</small></span></div></article>
+              <article><p>"Antes o passageiro ligava para perguntar o ETA. Agora ele acompanha sozinho."</p><div><span class="avatar">AT</span><span><b>Atendimento</b><small>Equipe de recepção</small></span></div></article>
+              <article><p>"O painel deixou claro quais horários pediam reforço de motorista."</p><div><span class="avatar">PL</span><span><b>Planejamento</b><small>Gestão operacional</small></span></div></article>
+            </div>
+          </div>
+          <div class="testimonial-column testimonial-column-b">
+            <div class="testimonial-track">
+              <article><p>"O motorista passou a sair sabendo quem estava esperando e quantas malas levava."</p><div><span class="avatar">MO</span><span><b>Motoristas</b><small>Operação de van</small></span></div></article>
+              <article><p>"A fila ficou visível para todo mundo, sem depender de planilha ou grupo de WhatsApp."</p><div><span class="avatar">CO</span><span><b>Coordenação</b><small>Base de embarque</small></span></div></article>
+              <article><p>"Conseguimos medir tempo médio de espera sem pedir relatório manual."</p><div><span class="avatar">BI</span><span><b>Dados</b><small>Controle de qualidade</small></span></div></article>
+              <article><p>"O motorista passou a sair sabendo quem estava esperando e quantas malas levava."</p><div><span class="avatar">MO</span><span><b>Motoristas</b><small>Operação de van</small></span></div></article>
+              <article><p>"A fila ficou visível para todo mundo, sem depender de planilha ou grupo de WhatsApp."</p><div><span class="avatar">CO</span><span><b>Coordenação</b><small>Base de embarque</small></span></div></article>
+              <article><p>"Conseguimos medir tempo médio de espera sem pedir relatório manual."</p><div><span class="avatar">BI</span><span><b>Dados</b><small>Controle de qualidade</small></span></div></article>
+            </div>
+          </div>
+          <div class="testimonial-column testimonial-column-c">
+            <div class="testimonial-track">
+              <article><p>"O relatório ajudou a explicar gargalos que antes pareciam impressão da equipe."</p><div><span class="avatar">GE</span><span><b>Gestão</b><small>Estacionamento parceiro</small></span></div></article>
+              <article><p>"A diretoria passou a enxergar ocupação, espera e demanda no mesmo lugar."</p><div><span class="avatar">DI</span><span><b>Diretoria</b><small>Indicadores operacionais</small></span></div></article>
+              <article><p>"Menos ligação no balcão e mais previsibilidade para a saída das vans."</p><div><span class="avatar">CX</span><span><b>Experiência</b><small>Passageiros</small></span></div></article>
+              <article><p>"O relatório ajudou a explicar gargalos que antes pareciam impressão da equipe."</p><div><span class="avatar">GE</span><span><b>Gestão</b><small>Estacionamento parceiro</small></span></div></article>
+              <article><p>"A diretoria passou a enxergar ocupação, espera e demanda no mesmo lugar."</p><div><span class="avatar">DI</span><span><b>Diretoria</b><small>Indicadores operacionais</small></span></div></article>
+              <article><p>"Menos ligação no balcão e mais previsibilidade para a saída das vans."</p><div><span class="avatar">CX</span><span><b>Experiência</b><small>Passageiros</small></span></div></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ship-logo-strip" aria-label="Clientes Go2Park">
+        <p>Estacionamentos que já operam com visibilidade de ponta a ponta</p>
+        <div class="logo-slider" aria-hidden="true">
+          <div class="logo-track">
+            <img src="assets/logo-virapark.svg" alt="Virapark" class="logo-client" />
+            <img src="assets/logo-nationpark.svg" alt="Nation Park" class="logo-client" />
+            <img src="assets/logo-virapark.svg" alt="Virapark" class="logo-client" />
+            <img src="assets/logo-nationpark.svg" alt="Nation Park" class="logo-client" />
+            <img src="assets/logo-virapark.svg" alt="Virapark" class="logo-client" />
+            <img src="assets/logo-nationpark.svg" alt="Nation Park" class="logo-client" />
+            <img src="assets/logo-virapark.svg" alt="Virapark" class="logo-client" />
+            <img src="assets/logo-nationpark.svg" alt="Nation Park" class="logo-client" />
+            <img src="assets/logo-virapark.svg" alt="Virapark" class="logo-client" />
+            <img src="assets/logo-nationpark.svg" alt="Nation Park" class="logo-client" />
+            <img src="assets/logo-virapark.svg" alt="Virapark" class="logo-client" />
+            <img src="assets/logo-nationpark.svg" alt="Nation Park" class="logo-client" />
+          </div>
+        </div>
+      </section>
+
+      <section class="ship-section awards">
+        <div class="ship-container flow-head">
+          <p class="ship-eyebrow">Critérios de confiança</p>
+          <h2>O que a página precisa provar logo de cara.</h2>
+        </div>
+        <div class="awards-grid">
+          <article>
+            <svg class="trust-icon" aria-hidden="true"><use href="#icon-no-hardware"></use></svg>
+            <strong>Sem hardware</strong><span>Tracking pelo celular do motorista.</span>
+          </article>
+          <article>
+            <svg class="trust-icon" aria-hidden="true"><use href="#icon-setup"></use></svg>
+            <strong>Setup rápido</strong><span>Início em menos de uma semana.</span>
+          </article>
+          <article>
+            <svg class="trust-icon" aria-hidden="true"><use href="#icon-report"></use></svg>
+            <strong>Dados exportáveis</strong><span>Relatórios para prestação de contas.</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="demo" class="final-cta">
+        <div>
+          <h3>Soluções para estacionamentos que fazem translado todos os dias.</h3>
+          <p>Você opera com frota própria. A Go2Park organiza a informação para reduzir espera, reclamação e viagens sem demanda.</p>
+        </div>
+        <a class="ship-button" href="mailto:renato@go2park.com.br">Conversar com vendas →</a>
+      </section>
+
+      <footer class="ship-footer">
+        <div class="ship-footer-grid">
+          <div>
+            <img src="assets/go2park-logo.svg" alt="Go2Park" />
+            <p>Plataforma de gestão de traslado para estacionamentos próximos a aeroportos.</p>
+          </div>
+          <div><h4>Produto</h4><a href="#como-funciona">Como funciona</a><a href="#solucoes">Soluções</a><a href="clientes.html">Página do passageiro</a></div>
+        </div>
+        <div class="ship-footer-bottom">© 2026 Go2Park. Todos os direitos reservados.</div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        if (!window.gsap || !window.ScrollTrigger) return;
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        if (prefersReducedMotion) return;
+
+        document.documentElement.classList.add("gsap-ready");
+
+        gsap.set(".hero-copy > *, .hero-device-stage", { autoAlpha: 0, y: 24 });
+        gsap.timeline({ defaults: { ease: "power3.out" } })
+          .to(".hero-copy > *", { autoAlpha: 1, y: 0, duration: 0.8, stagger: 0.08 })
+          .to(".hero-device-stage", { autoAlpha: 1, y: 0, duration: 0.9 }, "-=0.55");
+
+        gsap.to(".hero-phone-left", {
+          yPercent: -8,
+          rotation: -23,
+          ease: "none",
+          scrollTrigger: {
+            trigger: ".ship-hero",
+            start: "top top",
+            end: "bottom top",
+            scrub: true
+          }
+        });
+
+        gsap.to(".hero-phone-right", {
+          yPercent: 8,
+          rotation: 17,
+          ease: "none",
+          scrollTrigger: {
+            trigger: ".ship-hero",
+            start: "top top",
+            end: "bottom top",
+            scrub: true
+          }
+        });
+
+        gsap.utils.toArray(".metrics-band > div").forEach((item, index) => {
+          gsap.from(item, {
+            autoAlpha: 0,
+            y: 26,
+            duration: 0.75,
+            delay: index * 0.08,
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: ".metrics-band",
+              start: "top 82%"
+            }
+          });
+        });
+
+        document.querySelectorAll(".metrics-band strong[data-count]").forEach((el, index) => {
+          const target = +el.dataset.count;
+          const suffix = el.dataset.suffix || "";
+          const obj = { val: 0 };
+          gsap.to(obj, {
+            val: target,
+            duration: 1.6,
+            delay: index * 0.12,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: ".metrics-band",
+              start: "top 82%",
+              once: true
+            },
+            onUpdate() {
+              el.textContent = Math.round(obj.val) + suffix;
+            }
+          });
+        });
+
+        gsap.utils.toArray(".ship-section").forEach((section) => {
+          const targets = section.querySelectorAll(".ship-eyebrow, h2, .app-flow-list li, .solution-card, .estimate-strip, .proof-list li, .testimonials-columns, .awards-grid article");
+          if (!targets.length) return;
+
+          gsap.from(targets, {
+            autoAlpha: 0,
+            y: 34,
+            duration: 0.8,
+            stagger: 0.08,
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: section,
+              start: "top 76%"
+            }
+          });
+        });
+
+        gsap.from(".app-map-phone", {
+          autoAlpha: 0,
+          y: 42,
+          rotation: -6,
+          duration: 1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: "#como-funciona",
+            start: "top 72%"
+          }
+        });
+
+        gsap.from(".floating-route-card", {
+          autoAlpha: 0,
+          y: 22,
+          scale: 0.94,
+          duration: 0.8,
+          ease: "back.out(1.4)",
+          scrollTrigger: {
+            trigger: "#como-funciona",
+            start: "top 62%"
+          }
+        });
+
+        const routeLine = document.querySelector(".route-progress-line");
+        if (routeLine) {
+          const routeSteps = document.querySelectorAll(".route-step");
+          routeSteps.forEach(s => s.classList.remove("route-step-active"));
+
+          gsap.set(routeLine, { "--route-progress": 0 });
+          gsap.to(routeLine, {
+            "--route-progress": 1,
+            ease: "none",
+            scrollTrigger: {
+              trigger: ".route-flow",
+              start: "top 74%",
+              end: "bottom 42%",
+              scrub: true,
+              onUpdate(self) {
+                const p = self.progress;
+                routeSteps[0]?.classList.toggle("route-step-active", p >= 0.04);
+                routeSteps[1]?.classList.toggle("route-step-active", p >= 0.48);
+                routeSteps[2]?.classList.toggle("route-step-active", p >= 0.92);
+              },
+              onLeaveBack() {
+                routeSteps.forEach(s => s.classList.remove("route-step-active"));
+              }
+            }
+          });
+
+          gsap.from(".route-step", {
+            autoAlpha: 0,
+            y: 24,
+            duration: 0.65,
+            stagger: 0.16,
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: ".route-flow",
+              start: "top 78%"
+            }
+          });
+        }
+
+        gsap.from(".van-side-left", {
+          xPercent: -18,
+          autoAlpha: 0,
+          duration: 1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".van-band",
+            start: "top 72%"
+          }
+        });
+
+        gsap.from(".van-side-right", {
+          xPercent: 18,
+          autoAlpha: 0,
+          duration: 1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".van-band",
+            start: "top 72%"
+          }
+        });
+
+        gsap.from(".map-visual-card", {
+          autoAlpha: 0,
+          y: 80,
+          duration: 1.1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".blue-wash",
+            start: "top 72%"
+          }
+        });
+
+        gsap.from(".final-cta", {
+          autoAlpha: 0,
+          y: 36,
+          duration: 0.85,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".final-cta",
+            start: "top 82%"
+          }
+        });
+      });
+
+      (function () {
+        const items = document.querySelectorAll(".wc-item");
+        if (!items.length) return;
+        let cur = 0;
+        setInterval(function () {
+          const prev = cur;
+          items[prev].classList.remove("is-active");
+          items[prev].classList.add("is-exit");
+          cur = (cur + 1) % items.length;
+          items[cur].classList.add("is-active");
+          setTimeout(function () {
+            items[prev].classList.remove("is-exit");
+          }, 500);
+        }, 2400);
+      })();
+    </script>
+  </body>
+</html>
